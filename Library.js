@@ -16,13 +16,6 @@ class Library {
         return false;
     }
 
-    acceptBook(book) {
-        this.inventory.push(book);
-    }
-
-    displayInventory() {
-        return this.inventory;
-    }
 }
 
 module.exports = Library;
